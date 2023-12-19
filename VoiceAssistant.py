@@ -61,3 +61,5 @@ if __name__ == "__main__":
     while True:
         voice_command = recognize_speech()
         perform_action(voice_command)
+
+
