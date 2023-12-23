@@ -51,7 +51,9 @@ print("Waiting for connections...")
 # Start threads for accepting connections and sending server messages
 accept_thread = threading.Thread(target=accept_connections)
 accept_thread.start()
+
 #clientcode.py
+
 import socket
 import threading
 
