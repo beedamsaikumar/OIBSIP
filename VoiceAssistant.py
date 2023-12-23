@@ -9,6 +9,7 @@ engine = pyttsx3.init()
 
 # Function to convert text to speech
 def speak(text):
+    print(text)  # Display text output in the console
     engine.say(text)
     engine.runAndWait()
 
@@ -61,5 +62,3 @@ if __name__ == "__main__":
     while True:
         voice_command = recognize_speech()
         perform_action(voice_command)
-
-
